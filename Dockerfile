@@ -8,4 +8,4 @@ COPY app.py .
 CMD ["python", "app.py"]
 # Your existing Python stuff...
 
-CMD ["sh", "-c", "python your_script.py && tail -f /dev/null"]
+CMD ["sh", "-c", "python app.py && tail -f /dev/null"]
